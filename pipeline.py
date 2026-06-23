@@ -84,9 +84,3 @@ def run_research_pipeline(topic: str) -> dict:
     print("\n Critic Report \n", state["feedback"]);
 
     return state;
-
-if __name__ == "__main__":
-
-    topic = input("\n Enter A Research Topic: ");
-
-    run_research_pipeline(topic);
